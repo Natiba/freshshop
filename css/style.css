@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul li a .active.btn-primary,
+  ul li a .active.btn-primary:hover,
+  ul li a .active.btn-primary:active,
+  ul li a .active.btn-primary:visited,
+  ul li a .active.btn-primary:focus {
+      background-color: rgb(176, 180, 60);
+      border-color: rgb(176, 180, 60);
+  } 
+  
+  .freshContainer {
+    width: 100%;
+    height: 26rem;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .freshContainer img {
+      padding: 1rem;
+  }
+  
+  .price {
+      width: 30%;
+      background-color: rgb(176, 180, 60);
+      padding: 0.5%;
+  }
+  
+  hr {
+      background-color: rgb(176, 180, 60);
+      width: 50%;
+      height: 0.1rem;
+  
+  }
+  
