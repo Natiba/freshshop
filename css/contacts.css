@@ -1,0 +1,40 @@
+.formInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    font-family: "Dosis", sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 1rem;
+  }
+  
+  form input {
+    margin: .8rem;
+    padding: 0.5rem
+  }
+
+  .btnSend {
+      width: 38%;
+      border: 2px solid rgb(176, 180, 60);
+      color: #fff;
+  }
+
+.backImg {
+    width: 40%;
+    position: relative;
+}
+
+h2 {
+    font-family: "Dosis", sans-serif;
+}
+
+p {
+    width: 40%;
+}

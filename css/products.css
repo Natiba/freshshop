@@ -1,18 +1,23 @@
-.banner {
+.imageBanner {
   width: 100%;
   height: auto;
-  position: absolute;
+  position: relative;
+}
+
+.imageBanner {
+  width: 100%;
 }
 
 .details {
   color: #fff;
-  position: relative;
+  position: absolute;
+  top: -20px;
   z-index: 10;
 }
 
 .mixPicture {
   width: 70%;
-  margin-top: 350px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
@@ -29,14 +34,14 @@ span {
 
 .data {
   width: 40%;
-  margin-top: 350px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
 .dotted {
     width:100%;
     height: 0.05rem;
-   border: 1px dotted rgb(176, 180, 60);
+   border: 1px dotted rgb(172, 170, 170);
    margin-bottom: 30px;
 }
 
