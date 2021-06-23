@@ -22,12 +22,28 @@
   border-color: rgb(176, 180, 60);
 }
 
+/* ==== carusel ==== */
+
 .back {
-  width: 2rem;
-  height: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: rgb(176, 180, 60);
   opacity: 10;
   top: 28rem;
+}
+
+.hache1 {
+  width: 30%;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 35%;
+  margin-bottom: 150px;
+}
+
+.pCarusel {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 250px;
 }
 
 .myBackColor {
@@ -63,6 +79,7 @@
   height: 26rem;
   background-color: rgb(244, 244, 244);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 2rem;
@@ -166,4 +183,11 @@ hr {
 
 .rights {
   text-align: center;
+}
+
+
+/* ==== mobile ==== */
+
+@media screen and (max-width:960px) {
+  
 }

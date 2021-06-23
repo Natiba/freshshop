@@ -1,11 +1,13 @@
 .imageBanner {
   width: 100%;
-  height: auto;
-  position: relative;
+  height: 20vh;
+  background: url(../img/Strawberries.jpeg) no-repeat center;
+  background-size: cover;
 }
 
-.imageBanner {
-  width: 100%;
+.imageBanner h2 {
+  color: #fff;
+  padding: 4rem;
 }
 
 .details {
