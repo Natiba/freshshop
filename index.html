@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Freshshop</title>
   </head>
+
   <body>
     <!-- ==== container All (fluid) ==== -->
     <!-- <div class="container-fluid"> -->
@@ -198,15 +199,12 @@
           </p>
           <div class="row">
             <div class="col">
-              <div class="card saleImg" style="width: 15.5rem">
+              <div class="card saleImg border-0" style="width: 15.5rem">
                 <div class="saleContainer">
+                <div class="cardIm1">
                   <div class="sale">SALE</div>
                 </div>
-                <img
-                  src="./img/img-pro-01.jpg"
-                  class="card-img-top"
-                  alt="Carrots"
-                />
+              </div>
                 <div class="card-body bg-light">
                   <p class="card-text pColor">Lorem ipsum dolor amet.</p>
                   <div class="price">
@@ -216,15 +214,12 @@
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 15.5rem">
+              <div class="card border-0" style="width: 15.5rem">
                 <div class="saleContainer">
+                <div class="cardIm2">
                   <div class="sale new">NEW</div>
                 </div>
-                <img
-                  src="./img/img-pro-02.jpg"
-                  class="card-img-top"
-                  alt="Tomatos"
-                />
+              </div>
                 <div class="card-body bg-light">
                   <p class="card-text pColor">Lorem ipsum dolor amet.</p>
                   <div class="price">
@@ -234,33 +229,27 @@
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 15.5rem">
+              <div class="card border-0" style="width: 15.5rem">
                 <div class="saleContainer">
+                <div class="cardIm3">
                   <div class="sale">SALE</div>
                 </div>
-                <img
-                  src="./img/img-pro-03.jpg"
-                  class="card-img-top"
-                  alt="Grapes"
-                />
-                <div class="card-body bg-light">
-                  <p class="card-text pColor">Lorem ipsum dolor amet.</p>
-                  <div class="price">
-                    <p>$10.79</p>
-                  </div>
+              </div>
+              </div>
+              <div class="card-body bg-light">
+                <p class="card-text pColor">Lorem ipsum dolor amet.</p>
+                <div class="price">
+                  <p>$10.79</p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 15.5rem">
+              <div class="card border-0" style="width: 15.5rem">
                 <div class="saleContainer">
-                  <div class="sale">SALE</div>
+                  <div class="cardIm4">
+                    <div class="sale">SALE</div>
+                  </div>
                 </div>
-                <img
-                  src="./img/img-pro-04.jpg"
-                  class="card-img-top"
-                  alt="Pumpkin"
-                />
                 <div class="card-body bg-light">
                   <p class="card-text pColor">Lorem ipsum dolor amet.</p>
                   <div class="price">
@@ -276,81 +265,82 @@
     </main>
     <!-- ==== main end==== -->
     <!-- ==== footer init==== -->
-    <div class="text-white myBackColor p-5">
-      <div class="row">
-        <div class="col-sm">
-          <h5>Horarios de atención</h5>
-          <hr />
-          <p>Lunes-Viernes: 08:00am a 05:00pm</p>
-          <p>Sabado: 10am a 08:00pm</p>
-          <p>Domingo: Cerrado</p>
-        </div>
-        <div class="col-sm">
-          <form>
-            <div class="form-group">
-              <h5>Newsletter</h5>
-              <hr />
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Email Adress"
-              />
-            </div>
+    <footer>
+      <div class="text-white myBackColor p-5">
+        <div class="row">
+          <div class="col-sm">
+            <h5>Horarios de atención</h5>
+            <hr />
+            <p>Lunes-Viernes: 08:00am a 05:00pm</p>
+            <p>Sabado: 10am a 08:00pm</p>
+            <p>Domingo: Cerrado</p>
+          </div>
+          <div class="col-sm">
+            <form>
+              <div class="form-group">
+                <h5>Newsletter</h5>
+                <hr />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Email Adress"
+                />
+              </div>
 
-            <button type="submit" class="btn myColor">ENVIAR</button>
-          </form>
-        </div>
-        <div class="col-sm">
-          <h5>Redes Sociales</h5>
-          <hr />
-          <p class="textSize">
-            Lorem ipsum dolor sit amet; consectetur adipisicing elit.
-          </p>
-          <div class="socialIconsContainerAll">
-            <div class="socialIconsContainer">
-              <a href="https://www.facebook.com/"
-                ><i class="fab fa-facebook-square"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://twitter.com/?lang=es"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://www.linkedin.com/"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://www.google.com/"
-                ><i class="fab fa-google-plus-g"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://es.wikipedia.org/wiki/RSS"
-                ><i class="fas fa-rss"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://pinterest.com/"
-                ><i class="fab fa-pinterest-p"></i
-              ></a>
-            </div>
-            <div class="socialIconsContainer">
-              <a href="https://web.whatsapp.com/"
-                ><i class="fab fa-whatsapp"></i
-              ></a>
+              <button type="submit" class="btn myColor">ENVIAR</button>
+            </form>
+          </div>
+          <div class="col-sm">
+            <h5>Redes Sociales</h5>
+            <hr />
+            <p class="textSize">
+              Lorem ipsum dolor sit amet; consectetur adipisicing elit.
+            </p>
+            <div class="socialIconsContainerAll">
+              <div class="socialIconsContainer">
+                <a href="https://www.facebook.com/"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://twitter.com/?lang=es"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://www.linkedin.com/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://www.google.com/"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://es.wikipedia.org/wiki/RSS"
+                  ><i class="fas fa-rss"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://pinterest.com/"
+                  ><i class="fab fa-pinterest-p"></i
+                ></a>
+              </div>
+              <div class="socialIconsContainer">
+                <a href="https://web.whatsapp.com/"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
+        <div class="rights">
+          <p>Todos los derechos reservados. © 2021</p>
+        </div>
       </div>
-      <div class="rights">
-        <p>Todos los derechos reservados. © 2021</p>
-      </div>
-    </div>
+    </footer>
     <!-- ==== footer end ==== -->
 
     <!-- </div> -->

@@ -1,40 +1,112 @@
+.containerAll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .formInfo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formCont {
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2rem;
 }
 
 .info {
-    font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 1rem;
-  }
-  
-  form input {
-    margin: .8rem;
-    padding: 0.5rem
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+}
 
-  .btnSend {
-      width: 38%;
-      border: 2px solid rgb(176, 180, 60);
-      color: #fff;
-  }
+form input {
+    width: 100%;
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
 
-.backImg {
-    width: 40%;
-    position: relative;
+.message {
+    height: 100px;
+    align-items: flex-start;
+}
+
+.btnSend {
+  width: 30%;
+  border: 2px solid rgb(176, 180, 60);
+  color: #fff;
+  margin-left: 35%;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+/* section 2 */
+
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 10rem;
+}
+
+.backImage {
+  width: 100%;
+  height: 100%;
+  background: url(../img/Captura\ de\ Pantalla\ 2021-06-21\ a\ la\(s\)\ 14.40.56.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  font-family: "Dosis", sans-serif;
+ padding: 1rem; 
 }
 
 h2 {
-    font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
 p {
-    width: 40%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+ul li {
+  text-align: left;
+  line-height: 0.1rem;
+  font-family: "Dosis", sans-serif;
+  list-style: none;
+  margin: 1% 2.4%;
+}
+
+.space {
+    padding: .5rem;
+    margin-left: 2.2rem;
+}
+
+ul li i {
+    padding: .8rem;
 }

@@ -14,7 +14,7 @@
 }
 
 .textColor:hover {
-    color: rgb(172, 11, 11);
+  color: rgb(172, 11, 11);
 }
 
 .myColor {
@@ -55,7 +55,6 @@
 .socialIconsContainer a {
   color: #fff;
 }
-
 
 /* ==== BANNER ==== */
 
@@ -105,14 +104,6 @@
 .border {
   text-decoration: none;
 }
-.saleImg {
-    position: absolute;
-}
-
-.saleContainer {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .sale {
   width: 25%;
@@ -121,11 +112,38 @@
   color: #fff;
   padding: 0.1%;
   text-align: center;
-  position: relative;
+  margin: 10% 75%;
 }
 
 .new {
-    background-color: black;
+  background-color: black;
+}
+
+.cardIm1,
+.cardIm2,
+.cardIm3,
+.cardIm4 {
+  width: 100%;
+  height: 30vh;
+  background-repeat: no-repeat;
+
+  object-fit: contain;
+}
+
+.cardIm1 {
+  background: url(../img/img-pro-01.jpg);
+}
+
+.cardIm2 {
+  background: url(../img/img-pro-02.jpg);
+}
+
+.cardIm3 {
+  background: url(../img/img-pro-03.jpg);
+}
+
+.cardIm4 {
+  background: url(../img/img-pro-04.jpg);
 }
 
 /* ==== FOOTER SPACING LINE ==== */
@@ -149,5 +167,3 @@ hr {
 .rights {
   text-align: center;
 }
-
-
