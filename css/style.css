@@ -22,22 +22,28 @@
   border-color: rgb(176, 180, 60);
 }
 
-/* ==== carusel ==== */
+/* ==== NAV ==== */
+
+.d-lg-none {
+  display: none;
+}
+
+/* ==== CARUSEL ==== */
 
 .back {
   width: 3.5rem;
-  height: 3.5rem;
+  height: 3.5vh;
   background-color: rgb(176, 180, 60);
   opacity: 10;
   top: 28rem;
 }
 
 .hache1 {
-  width: 30%;
+  width: 40%;
   font-size: 4rem;
   font-weight: bold;
   margin-left: 35%;
-  margin-bottom: 150px;
+  margin-bottom: 8vh;
 }
 
 .pCarusel {
@@ -76,17 +82,17 @@
 
 .freshContainer {
   width: 100%;
-  height: 26rem;
+  height: 80vh;
   background-color: rgb(244, 244, 244);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
 }
 
 .freshContainer img {
-  padding: 1rem;
+  padding: 0.2rem;
+  width: 100%;
 }
 
 /* ==== FRUITS&VEGETABLES ==== */
@@ -94,6 +100,7 @@
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   text-align: center;
+  width: 100%;
 }
 
 .title > p {
@@ -143,7 +150,6 @@
   width: 100%;
   height: 30vh;
   background-repeat: no-repeat;
-
   object-fit: contain;
 }
 
@@ -185,9 +191,36 @@ hr {
   text-align: center;
 }
 
+/* ==== desktop ==== */
 
-/* ==== mobile ==== */
+@media screen and (min-width: 960px) {
+  /* ==== NAV ==== */
 
-@media screen and (max-width:960px) {
-  
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul {
+    margin-left: 70%;
+  }
+
+  /* ==== BANNER ==== */
+
+  .freshContainer {
+    width: 100%;
+
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .freshContainer img {
+    padding: 1rem;
+    width: 50%;
+  }
 }
